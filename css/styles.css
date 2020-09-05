@@ -135,6 +135,8 @@ img {
 
 .hero {
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 
   color: var(--background-color);
   background-color: var(--background-hero-color);
@@ -143,6 +145,8 @@ img {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   max-width: 1600px;
 }
 
